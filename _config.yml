@@ -12,28 +12,28 @@ email: hyukjuner@gmail.com
 website: medium.com/@hyukjuner
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: hyukjuner
+github_username:  hyukjuns
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+#instagram_username: jameswgrant
+linkedin_username: hyukjun
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+#youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
+- title: medium
   icon: fas fa-globe
-  url: https://www.itsgoingto.be
+  url: https://medium.com/@hyukjuner
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -46,12 +46,16 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/mypic_sky.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Azure Cloud MSP를 하고 있는 클라우드 엔지니어 입니다. 
+  
+  <mark>Azure Cloud</mark> 운영 업무를 주로 하고 있으며, 클라우드 기술 컨설팅, 인프라 장애 대응, 운영 환경 구성(모니터링, 정책, 자동화), 클라우드 비용 최적화 등의 업무를 합니다.
+  이외에도 <mark>Azure DevOps</mark>를 사용한 자동화 업무, CICD PoC, 고객 교육 업무와, 클라우드 랜딩존을 모티브로한 운영플랫폼 프로젝트를 리딩하고 있습니다.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
-
+  개발 경험을 살려 <mark>Terraform</mark>, <mark>Ansible</mark>, <mark>Packer</mark>와 같은 IaC를 업무에 어렵지 않게 사용하고, 쉘 스크립팅을 통해 업무 자동화에 기여합니다.
+  <mark>Linux</mark>를 좋아하기 때문에, <mark>Docker</mark>에 자연스럽게 흥미를 느껴 공부하면서 <mark>Kubernetes</mark>를 관리하고 다룰 정도까지 익혀왔습니다.
+  
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
