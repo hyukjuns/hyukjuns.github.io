@@ -50,7 +50,7 @@ about_profile_image: images/mypic_sky.jpeg
 about_content: | # this will include new lines to allow paragraphs
   남혁준, Azure Cloud Engineer
 
-  안녕하세요 Azure Cloud MSC에서 운영 2팀 파트리드를 맡고 있는 남혁준 입니다.
+  안녕하세요 클루커스 Managed Service Center 에서 Azure 운영 2팀 파트리드를 맡고 있는 남혁준 입니다.
 
   주 업무로 고객사 Azure Cloud 인프라를 운영하면서 긴급 장애대응과 Azure Cloud 컨설팅, 인프라 자동화 업무를 하고 있습니다.
 
@@ -71,7 +71,7 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        sub_title: Azure Cloud Engineer | MSP 운영 2팀 Part Lead
+        sub_title: Azure Cloud Engineer | Customer Success Manager | MSC 운영 2팀 Part Lead
         caption: >
           2020.11 ~ Present
         description: | # this will include new lines to allow paragraphs
