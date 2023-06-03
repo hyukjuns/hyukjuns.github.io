@@ -48,73 +48,176 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/mypic_sky.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Azure Cloud MSP를 하고 있는 클라우드 엔지니어 입니다. 
-  
-  <mark>Azure Cloud</mark> 운영 업무를 주로 하고 있으며, 클라우드 기술 컨설팅, 인프라 장애 대응, 운영 환경 구성(모니터링, 정책, 자동화), 클라우드 비용 최적화 등의 업무를 합니다.
-  이외에도 <mark>Azure DevOps</mark>를 사용한 자동화 업무, CICD PoC, 고객 교육 업무와, 클라우드 랜딩존을 모티브로한 운영플랫폼 프로젝트를 리딩하고 있습니다.
+  남혁준, Azure Cloud Engineer
 
-  개발 경험을 살려 <mark>Terraform</mark>, <mark>Ansible</mark>, <mark>Packer</mark>와 같은 IaC를 업무에 어렵지 않게 사용하고, 쉘 스크립팅을 통해 업무 자동화에 기여합니다.
-  <mark>Linux</mark>를 좋아하기 때문에, <mark>Docker</mark>에 자연스럽게 흥미를 느껴 공부하면서 <mark>Kubernetes</mark>를 관리하고 다룰 정도까지 익혀왔습니다.
+  안녕하세요 Azure Cloud MSC에서 운영 2팀 파트리드를 맡고 있는 남혁준 입니다.
+
+  주 업무로 고객사 Azure Cloud 인프라를 운영하면서 긴급 장애대응과 Azure Cloud 컨설팅, 인프라 자동화 업무를 하고 있습니다.
+
+  이외에도, 인프라 구축 및 PoC 프로젝트, 클라우드 랜딩존 및 Azure DevOps CI/CD 교육, 테라폼을 사용한 사내 운영플랫폼 프로젝트를 수행하였습니다.
   
 content:
-  - title: Projects # Title for the section
+  - title: 업무경험 # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+      - layout: left
+        title: Cloocus
+        # link: github.com/sproogen
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        sub_title: Azure Cloud Engineer | MSP 운영 2팀 Part Lead
+        caption: >
+          2020.11 ~ Present
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-  - title: Experience # Title for the section
+          - 20여개 고객사의 클라우드 인프라 운영 및 장애대응, 장애분석
+          - 클라우드 인프라 기술지원, 컨설팅, 모니터링, 비용관리
+          - 클라우드 인프라 자동화 업무 지원
+          - 신규 인프라 구축 및 아키텍쳐 컨설팅, PoC, 교육 세미나 진행
+          - 사내 프로젝트 리딩 (랜딩존, 운영플랫폼)
+  - title: 업무역량 # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: 고객사 인프라 운영팀 리딩
+        #link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        sub_title: Azure Cloud Operation
+        caption: 인프라 운영업무를 하면서 긴급 장애지원과 기술 지원, 비용 문의 및 관리, 인프라 구성 변경, 인프라 자동화 지원 등 을 수행하면서, 팀과 팀원의 성장을 위한 업무 환경을 만들고 있습니다.
+        # quote: >
+        #   인프라 운영업무를 하면서 긴급 장애지원과 기술 지원, 비용 문의 및 관리, 인프라 구성 변경, 인프라 자동화 지원 등 을 수행하면서, 팀과 팀원의 성장을 위한 업무 환경을 만들고 있습니다.
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          - 20여개 고객사 인프라 운영 및 주/야간 긴급 장애 트러블 슈팅 지원, 이벤트 트래픽 대응, 인프라 모니터링 및 유지보수
+              - 웹서버 및 OS(Linux, Windows), Azure Network, Azure Computing(IaaS, PaaS), Storage, Container 서비스 트러블 슈팅, 장애대응, RCA 작성
+              - 이벤트 트래픽 모니터링 및 서비스 스케일링 지원, 글로벌 네트워크(vWAN) 모니터링 및 트러블 슈팅 지원
+              - 인프라 일일점검 및 유지보수, 업데이트 안내
+          - Azure Cloud 인프라 구성/변경 기술 지원, 서비스 가이드 (IaaS / PaaS)
+              - Azure 가상머신 및 App Service, Container 서비스 구성 및 변경 작업, 모니터링/로깅 환경 구성, 기술 문의 대응 및 서비스 가이드, 트러블슈팅 지원
+              - Application Gateway, Load Balancer를 사용한 웹서버 네트워킹 환경 구성, 트러블슈팅 지원
+              - Azure VPN을 사용한 온프레미스 ↔ Azure 간 하이브리드 네트워크 환경 구성, 트러블슈팅 지원
+              - Storage 서비스를 위한 Private Azure Network 환경 구성 지원
+              - Azure AD 관리 및 트러블 슈팅, 서비스 가이드
+              - 클라우드 사용량 분석 및 예산 관리, 커스텀 사용량 리포트 작성(PowerBI)
+          - 클라우드 인프라 자동화 지원
+              - Shell Script 와 Azure DevOps를 사용한 가상머신 자동 On/Off, SKU 스케일링, 고객사 클라우드 구성관리 템플릿 추출 자동화
+              - Azure Policy, EventGrid, Function을 사용한 리소스 태깅 자동화
+      - layout: left
+        title: 고객사 인프라 신규 구축 프로젝트
+        #link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Azure Cloud Architect
+        caption: 인프라 운영 업무와 병행해서 신규 인프라 구축 프로젝트 및 PoC 프로젝트에 참여하거나 프로젝트 PM을 수행하였습니다.
 
-  - title: Education # Title for the section
+        # quote: >
+        #   인프라 운영 업무와 병행해서 신규 인프라 구축 프로젝트 및 PoC 프로젝트에 참여하거나 프로젝트 PM을 수행하였습니다.
+        description: | # this will include new lines to allow paragraphs
+          - 2023.05, 신규 클라우드 인프라 구축 프로젝트 리딩, PM
+              
+              신규 인프라 구축 프로젝트를 위한 일정 관리, 아키텍쳐 작성, 테스트 및 PoC 진행Azure Network 및 VirtualMachine, Storage, AKS, Database 사용 환경 구축 리딩
+              
+          - 2022.07 AVD 환경 구축 프로젝트 참여, Azure FW 담당자로 참여
+              
+              AVD 구축 프로젝트에서 Azure FW 도입과 AVD를 위한 FW 정책, 라우팅 구성을 진행하였고, Azure AD 조건부 엑세스를 사용해 특정 IP만 AVD에 접근할 수 있는 보안 접근 검증 PoC를 수행
+              
+          - 2022.01, Azure DevOps를 사용한 CI/CD PoC 진행, PoC 담당자
+              
+              Azure DevOps 플랫폼에서 Azure VMSS 에 Packer로 만든 가상머신 이미지를 배포하고 업그레이드 하는 CI/CD PoC 진행
+      - layout: left
+        title: 랜딩존 프로젝트 리딩
+        #link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: 표준 Azure Cloud Landing Zone 기획 및 구성
+        caption: 사내 프로젝트, 2022.01~2022.09
+        # quote: >
+        #   사내 프로젝트, 2022.01~2022.09
+        description: | # this will include new lines to allow paragraphs
+          - CAF(Cloud Adoption Framework)를 바탕으로 Azure Cloud 랜딩존 표준 아키텍쳐를 구성하고, 이를 테라폼을 사용한 코드화를 진행, git workflow 도입 및 문서화 작업 수행
+      - layout: left
+        title: 운영플랫폼 프로젝트 리딩
+        #link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Azure 인프라 운영을 위한 다양한 체크 포인트를 시각화하여 제공하는 서비스 기획 및 개발
+        caption: 사내 프로젝트, 2022.09 ~ 2023.05
+        # quote: >
+        #   사내 프로젝트, 2022.09 ~ 2023.05
+        description: | # this will include new lines to allow paragraphs
+          - 각 카테고리별 테라폼 코드화 및 모듈화 수행, 테라폼 모듈 버전관리 및 문서화 수행
+          - 팀내 git workflow 도입, IaC 협업 체계 및 문화 전파 (문서작성, 버전관리, 코드 작성 규칙, 코드 리뷰 등)
+      - layout: left
+        title: 고객 교육 및 세미나
+        #link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Azure Landing Zone, Azure DevOps
+        # caption: November 2017 - Present
+        # quote: >
+        #   사내 프로젝트, 2022.09 ~ 2023.05
+        description: | # this will include new lines to allow paragraphs
+          - Azure 랜딩존 소개 세미나 진행 - 고객사 대상 표준 랜딩존 소개 및 발표 진행
+          - Azure DevOps 교육 진행 - 고객사 대상 Azure DevOps 핸즈온 교육 진행 (플랫폼 소개 및 CICD 데모 소개, 핸즈온랩 진행)
+  - title: Skill # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: Azure Cloud
+        # caption: 2010 - 2013
+        # sub_title: BSc Computer Science
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
+          - Governance: Azure AD, Azure Management Group, Azure Policy
+          - Networking: Azure Virtual Network, Azure DNS, NSG, Azure VPN, Azure vWAN, Azure Application Gateway, Azure Load Balancer, Private Endpoint/Link,
+          - Computing: Azure Virtual Machine, Azure App Service, Azure Kubernetes Service, Azure Container Registry, Azure Functions
+          - Storage & Security: StorageAccount(Fileshare, Blob), Azure Key Vault
+          - Monitoring & Logging: Azure Monitor, Azure Log Analytics, Resource Graph, KQL, Resource Diagnostic Setting
+          - Event Service: EventGrid, EventHub
+      - layout: left
+        title: Infrastructure
+        # caption: 2010 - 2013
+        # sub_title: BSc Computer Science
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          - OS - Linux(Ubuntu, CentOS), Windows Server
+          - Middle ware: Apache, Tomcat
+          - Network Engineering (HTTP/HTTPS, VPN)
+      - layout: left
+        title: DevOps
+        # caption: 2010 - 2013
+        # sub_title: BSc Computer Science
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          - Container (Docker, Kubernetes)
+          - Terraform (IaC)
+          - Shell Script, Python
+          - Azure DevOps CI/CD Pipeline
+  - title: Side Project
+    layout: list
+    content:  # this will include new lines to allow paragraphs
+      - layout: left
+        title: 기술블로그
+        link: https://medium.com/@hyukjuner
+        link_text: https://medium.com/@hyukjuner
+        description: | 
+          - 개인적으로 공부하거나, 업무 경험을 통해 배운 내용을 정리해 두는 장소입니다.
+          - How to Guide, Tutorial, 기술 소개 등 글의 속성을 나눠 글을 작성하고 있습니다.
+      - layout: left
+        title: 데모 및 기술 문서화
+        link: https://github.com/hyukjuns
+        link_text: https://github.com/hyukjuns
+        description: | 
+          - Terraform, Ansible, Shell Script, Docker, Kubernetes 등 Code 작업이 필요한 작업물 들을 정리해두는 장소입니다.
+          - 개인적인 호기심으로 여러가지 인프라 구성을 테스트 하거나, 데모 및 테스트용 작업물을 관리합니다.
+  - title: 외부활동
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+    content: |
+      - [유튜브 - 운영플랫폼 세미나](https://www.youtube.com/watch?v=ud2oFqGEhqA)
+      - [잡플래닛 인터뷰](https://www.jobplanet.co.kr/contents/news-1629)
 
 # Footer
 footer_show_references: true
