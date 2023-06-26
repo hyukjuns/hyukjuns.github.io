@@ -187,10 +187,10 @@ content:
         # quote: >
         #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          - **Governance**: Azure AD, Azure Management Group, Azure Policy
-          - **Networking**: Azure Virtual Network, Azure DNS, NSG, Azure VPN, Azure vWAN, Azure Application Gateway, Azure Load Balancer, Private Endpoint/Link,
-          - **Computing**: Azure Virtual Machine, Azure App Service, Azure Kubernetes Service, Azure Container Registry, Azure Functions
-          - **Storage & Security**: StorageAccount(Fileshare, Blob), Azure Key Vault
+          - **Governance**: Azure AD, Management Group, Azure Policy
+          - **Networking**: Azure Virtual Network, Azure DNS, Azure VPN, Azure vWAN, Azure Application Gateway, Azure Load Balancer, Private Endpoint/Link, Network Security Group, Azure Firewall
+          - **Computing**: Azure Virtual Machine, Azure Virtual Machine Scale Set, Azure App Service, Azure Functions, Azure Kubernetes Service
+          - **Storage & Security**: StorageAccount(File share, Blob), Azure Key Vault, Azure Container Registry
           - **Monitoring & Logging**: Azure Monitor, Azure Log Analytics, Resource Graph, KQL, Resource Diagnostic Setting
           - **Event Service**: EventGrid, EventHub
       - layout: left
@@ -202,7 +202,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - **OS**: Linux(Ubuntu, CentOS), Windows
           - **Software**: Apache, Nginx, Tomcat
-          - **Network:** Web, VPN Configuration
+          - **Understanding** Virtualization, Network
       - layout: left
         title: DevOps
         # caption: 2010 - 2013
